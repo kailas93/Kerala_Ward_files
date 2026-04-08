@@ -3,9 +3,9 @@
 ## File Descriptions
 
 - **README.md** - This file with project documentation
-- **main.py** - Downloads fresh district-localbody mapping data from wardmap.ksmart.live
-- **simple_converter.py** - Converts mapping JSON to point-based shapefiles for each district
-- **visualize_shapefiles.ipynb** - Jupyter notebook for interactive shapefile visualization
+- **scrapper.py** - Downloads fresh district-localbody mapping data from wardmap.ksmart.live
+- **geojson_conv.py** - Extracts GeoJSON data from ward mapping HTML pages using Playwright
+- **shape_file_conv.py** - Converts GeoJSON files to shapefiles for each district
 
 ## Data Files
 
